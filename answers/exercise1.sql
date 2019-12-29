@@ -1,4 +1,4 @@
 SELECT *
 FROM Enrolments
 LEFT JOIN Students
-[insert clause here];
+ON Enrolments.StudentID = Students.StudentID;
